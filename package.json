@@ -1,0 +1,23 @@
+{
+  "name": "projeto014_inprogress_cine_house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theussoliveira011/projeto-cine-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theussoliveira011/projeto-cine-house/issues"
+  },
+  "homepage": "https://github.com/theussoliveira011/projeto-cine-house#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
