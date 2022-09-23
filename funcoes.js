@@ -8,12 +8,20 @@ module.exports = {
     return 'Filme adicionado com sucesso!';
   },
 
-  buscarFilme: (codigo, catalogo) => {
-    for(let i = 0; i<catalogo.length;i++){
-      if(catalogo[i].id == codigo){
-        return catalogo[i];
-      }
-    }
-    // return catalogo.filter(filme => filme.id == codigo ? filme : "Não encontrado!"); /* Algo está errado aqui! */
-  }
+  buscarFilme: (id, catalogo) => {
+     for(let i = 0; i<catalogo.length;i++){
+       if(catalogo[i].id == id){
+         return catalogo[i];
+       }
+     }
+    //return catalogo.filter(filme => filme.id == id ? filme : false);
+  },
+
+  alteraStatusEmCartaz: (id, catalogo, nomeArquivo, busca) => {
+    const filme = busca(id, catalogo);
+    filme.emCartaz = !filme.emCartaz;
+    fs.writeFileSync(nomeArquivo, JSON.stringify(catalogo, null, 2));
+    return "Em Cartaz Atualizado com sucesso!!";
+  },
+
 }

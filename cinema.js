@@ -3,7 +3,7 @@ const funcoes = require("./funcoes");
 const catalogo = require("./database/catalogo.json");
 const nomeArquivo = "./database/catalogo.json";
 
-const {adicionarFilme, buscarFilme} = funcoes;
+const {adicionarFilme, buscarFilme, alteraStatusEmCartaz} = funcoes;
 
 console.log("****************** MATH - MOVIES *****************");
 
@@ -13,5 +13,6 @@ console.log("****************** MATH - MOVIES *****************");
   // ["Ruppert Griffin", "Menino Maluquinho", "Chico Bento"],
   // 2022,
   // false), catalogo, nomeArquivo);
-
-  console.log(buscarFilme(5, catalogo));
+  
+  //console.log(buscarFilme(5, catalogo));
+  console.log(alteraStatusEmCartaz(1, catalogo, nomeArquivo, buscarFilme));
