@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "titulo": "Harry Potter e o Calice de Fogo",
+    "duracao": "240",
+    "atores": [
+      "Ruppert",
+      "Harry Potter"
+    ],
+    "anoDeLancamento": "2004",
+    "emCartaz": "true"
+  },
+  {
+    "id": "2",
+    "titulo": "Harry Potter e as Cronicas de Narnia",
+    "duracao": "300",
+    "atores": [
+      "Ruppert",
+      "Harry Potter",
+      "Camisa Regata"
+    ],
+    "anoDeLancamento": "2007",
+    "emCartaz": "false"
+  },
+  {
+    "id": "3",
+    "titulo": "Harry Potter e o Mundo de Bob",
+    "duracao": "180",
+    "atores": [
+      "Ruppert",
+      "Harry Potter",
+      "Bob Esponja"
+    ],
+    "anoDeLancamento": "2016",
+    "emCartaz": "false"
+  },
+  {
+    "id": 4,
+    "titulo": "Harry Potter o menino Maluco",
+    "duracao": 240,
+    "atores": [
+      "Ruppert Griffin",
+      "Menino Maluquinho",
+      "Chico Bento"
+    ],
+    "anoDeLancamento": 2022,
+    "emCartaz": false
+  }
+]
