@@ -24,4 +24,8 @@ module.exports = {
     return "Em Cartaz Atualizado com sucesso!!";
   },
 
+  listarFilmesLongaDuracao: (duracao, catalogo) => {
+    return catalogo.filter(filme => filme.duracao >= duracao ? filme : false);
+    
+  }
 }

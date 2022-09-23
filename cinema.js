@@ -1,6 +1,7 @@
 const Filme = require("./Filme");
 const funcoes = require("./funcoes");
 const catalogo = require("./database/catalogo.json");
+const { listarFilmesLongaDuracao } = require("./funcoes");
 const nomeArquivo = "./database/catalogo.json";
 
 const {adicionarFilme, buscarFilme, alteraStatusEmCartaz} = funcoes;
@@ -15,4 +16,4 @@ console.log("****************** MATH - MOVIES *****************");
   // false), catalogo, nomeArquivo);
   
   //console.log(buscarFilme(5, catalogo));
-  console.log(alteraStatusEmCartaz(1, catalogo, nomeArquivo, buscarFilme));
+  console.log(listarFilmesLongaDuracao(230, catalogo));
