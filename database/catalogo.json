@@ -45,5 +45,17 @@
     ],
     "anoDeLancamento": 2022,
     "emCartaz": false
+  },
+  {
+    "id": 5,
+    "titulo": "Harry Potter o menino Maluco",
+    "duracao": 240,
+    "atores": [
+      "Ruppert Griffin",
+      "Menino Maluquinho",
+      "Chico Bento"
+    ],
+    "anoDeLancamento": 2022,
+    "emCartaz": false
   }
 ]

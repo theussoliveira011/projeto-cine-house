@@ -7,11 +7,11 @@ const {adicionarFilme} = funcoes;
 
 console.log("****************** MATH - MOVIES *****************");
 
-adicionarFilme({id: 4,
-  titulo: "Harry Potter o menino Maluco",
-  duracao: 240,
-  atores: ["Ruppert Griffin", "Menino Maluquinho", "Chico Bento"],
-  anoDeLancamento: 2022,
-  emCartaz: false}, catalogo, nomeArquivo);
+  // adicionarFilme(new Filme(5,
+  // "Harry Potter o menino Maluco",
+  // 240,
+  // ["Ruppert Griffin", "Menino Maluquinho", "Chico Bento"],
+  // 2022,
+  // false), catalogo, nomeArquivo);
 
-  
+  console.log(funcoes.buscarFilme(5, catalogo));
