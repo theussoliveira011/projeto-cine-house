@@ -9,6 +9,11 @@ module.exports = {
   },
 
   buscarFilme: (codigo, catalogo) => {
-    return catalogo.filter(filme => filme.id == codigo ? filme : "Não encontrado!");
+    for(let i = 0; i<catalogo.length;i++){
+      if(catalogo[i].id == codigo){
+        return catalogo[i];
+      }
+    }
+    // return catalogo.filter(filme => filme.id == codigo ? filme : "Não encontrado!"); /* Algo está errado aqui! */
   }
 }

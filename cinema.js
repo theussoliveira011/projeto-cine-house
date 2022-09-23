@@ -3,7 +3,7 @@ const funcoes = require("./funcoes");
 const catalogo = require("./database/catalogo.json");
 const nomeArquivo = "./database/catalogo.json";
 
-const {adicionarFilme} = funcoes;
+const {adicionarFilme, buscarFilme} = funcoes;
 
 console.log("****************** MATH - MOVIES *****************");
 
@@ -14,4 +14,4 @@ console.log("****************** MATH - MOVIES *****************");
   // 2022,
   // false), catalogo, nomeArquivo);
 
-  console.log(funcoes.buscarFilme(5, catalogo));
+  console.log(buscarFilme(5, catalogo));
