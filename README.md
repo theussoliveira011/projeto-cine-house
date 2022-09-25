@@ -1,5 +1,4 @@
 # Project-cine-house
-<hr>
 <br>
 
 # Open in ubuntu
